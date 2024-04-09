@@ -19,3 +19,21 @@
 
 3. To install the above-mentioned libraries:
 - `pip install Flask Flask-Login Flask-Bcrypt Flask-WTF FLask-Migrate Flask-SQLAlchemy Flask-Testing python-decouple`
+
+4. To initialize the database (create a migration repository), use the command:
+`flask db init`
+
+5. To migrate the database changes, use the command:
+`flask db migrate`
+
+6. To apply the migrations, use the command:
+`flask db upgrade`
+
+7. To run your application using the command:
+`python manage.py run`
+
+8. you can run all the tests using the command:
+`python manage.py test`
+
+9. To create an Admin user:
+`python manage.py create_admin`
